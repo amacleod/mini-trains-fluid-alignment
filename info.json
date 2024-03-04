@@ -8,5 +8,5 @@
     "base >= 1.1",
     "Mini_Trains = 1.0.0"
   ],
-  "description": "Mini Trains Fluid Alignment adds pump alignment compatibility for mods that introduce multiple pump types. Basically it multiplies all pumps' tolerance "
+  "description": "Mini Trains Fluid Alignment adds pump alignment compatibility for mods that introduce multiple pump types. Basically it multiplies all pumps' tolerance to match the tolerance applied to the vanilla pump. As such it might be incompatible with mods that add multiple pump types and also require their own tolerance modifications. So far this mod has only been tested with Mini Trains in Nullius."
 }
