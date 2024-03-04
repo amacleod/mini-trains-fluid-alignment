@@ -1,9 +1,12 @@
 .PHONY: all clean
 
-all: build/mini-trains-fluid-alignment.zip
+VERSION := 0.1.0
+MOD_ZIP := build/mini-trains-fluid-alignment-$(VERSION).zip
 
-build/mini-trains-fluid-alignment.zip: info.json *.lua LICENSE changelog.txt thumbnail.png README.md
+all: $(MOD_ZIP)
+
+$(MOD_ZIP): info.json *.lua LICENSE changelog.txt thumbnail.png README.md
 	zip $@ $^
 
 clean:
-	rm build/mini-trains-fluid-alignment.zip
+	rm -fv build/*.zip
