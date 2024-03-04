@@ -1,0 +1,12 @@
+{
+  "name": "mini-trains-fluid-alignment",
+  "version": "0.1.0",
+  "title": "Mini Trains Fluid Alignment",
+  "author": "Allister MacLeod <allister.macleod@gmail.com>",
+  "factorio_version": "1.1",
+  "dependencies": [
+    "base >= 1.1",
+    "Mini_Trains = 1.0.0"
+  ],
+  "description": "Mini Trains Fluid Alignment adds pump alignment compatibility for mods that introduce multiple pump types. Basically it multiplies all pumps' tolerance "
+}
